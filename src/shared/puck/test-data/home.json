@@ -1,0 +1,571 @@
+{
+    "root": {
+        "title": "Test Header",
+        "bg": "transparent",
+        "p": ""
+    },
+    "content": [
+        {
+            "type": "Flex",
+            "props": {
+                "items": [
+                    {
+                        "justify": "center",
+                        "align": "center",
+                        "direction": "row",
+                        "w": "100%",
+                        "h": "100%"
+                    }
+                ],
+                "shadow": "",
+                "withBorder": false,
+                "align": "center",
+                "justify": "center",
+                "id": "Flex-185b6e3f-030d-4327-9d1a-a940f68b5a23",
+                "direction": "row",
+                "gap": "xs",
+                "w": "100%",
+                "miw": "100%",
+                "maw": ""
+            }
+        }
+    ],
+    "zones": {
+        "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a:item-0": [
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "justify": "center",
+                            "align": "center",
+                            "gap": "md",
+                            "withBorder": false,
+                            "w": "100%",
+                            "maw": "100%",
+                            "mih": "100%",
+                            "h": "32px"
+                        }
+                    ],
+                    "shadow": "",
+                    "withBorder": false,
+                    "align": "center",
+                    "justify": "center",
+                    "id": "Flex-e7f75982-6cc3-4e7d-963c-89bc9d9cf716",
+                    "gap": "xs"
+                }
+            },
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "justify": "flex-end",
+                            "align": "center",
+                            "h": "52px",
+                            "w": "400px"
+                        }
+                    ],
+                    "shadow": "",
+                    "withBorder": false,
+                    "align": "center",
+                    "justify": "center",
+                    "id": "Flex-11d386ef-9b4c-4ea4-83b5-a7715866c260",
+                    "w": "400px",
+                    "h": "52px"
+                }
+            }
+        ],
+        "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a:item-1": [
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "direction": "column",
+                            "justify": "center",
+                            "w": "auto",
+                            "h": "392px",
+                            "align": "center",
+                            "gap": "lg"
+                        }
+                    ],
+                    "shadow": "",
+                    "withBorder": false,
+                    "align": "flex-start",
+                    "justify": "center",
+                    "id": "Flex-c2dd9715-804d-4ced-89ea-79b76c5a2708",
+                    "w": "100%",
+                    "direction": "",
+                    "gap": "lg",
+                    "h": "",
+                    "radius": "xs"
+                }
+            }
+        ],
+        "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a:item-2": [
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Transform Your Life\n",
+                    "fz": "lg",
+                    "id": "Text-065c8cd2-96a3-4f67-a1e1-f0f6328f5bbf",
+                    "fw": "700",
+                    "w": "",
+                    "ta": "center"
+                }
+            }
+        ],
+        "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a:item-3": [
+            {
+                "type": "Text",
+                "props": {
+                    "text": " Register for a Journey of ",
+                    "fz": "lg",
+                    "id": "Text-9ce56a08-e107-47e2-b876-3a31861d4c4f",
+                    "ta": "center",
+                    "fw": "700"
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": " Growth",
+                    "fz": "lg",
+                    "id": "Text-f134c668-e9df-436c-93d7-a0339a0a08d9",
+                    "w": "80",
+                    "ta": "center",
+                    "fw": "700",
+                    "c": "rgba(17, 153, 238, 1)",
+                    "size": "xs"
+                }
+            }
+        ],
+        "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a:item-4": [
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "align": "center",
+                            "justify": "center",
+                            "direction": "column",
+                            "w": "100%",
+                            "h": "100%",
+                            "mah": "377px",
+                            "maw": "349px",
+                            "gap": "md",
+                            "p": "sm"
+                        }
+                    ],
+                    "shadow": "lg",
+                    "withBorder": false,
+                    "align": "center",
+                    "justify": "center",
+                    "id": "Flex-521e3ec0-9c60-40b2-b9e3-2eab06d39a1b",
+                    "direction": "column",
+                    "radius": "md"
+                }
+            },
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "align": "center",
+                            "justify": "center",
+                            "direction": "column",
+                            "w": "100%",
+                            "h": "100%",
+                            "mah": "377px",
+                            "maw": "349px",
+                            "gap": "md",
+                            "p": "sm"
+                        }
+                    ],
+                    "shadow": "lg",
+                    "withBorder": false,
+                    "align": "center",
+                    "justify": "center",
+                    "id": "Flex-934c7fa0-f54f-4ab3-a25a-0e7cd62b2561",
+                    "direction": "column",
+                    "radius": "md"
+                }
+            },
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "align": "center",
+                            "justify": "center",
+                            "direction": "column",
+                            "w": "100%",
+                            "h": "100%",
+                            "mah": "377px",
+                            "maw": "349px",
+                            "gap": "md",
+                            "p": "sm"
+                        }
+                    ],
+                    "shadow": "lg",
+                    "withBorder": false,
+                    "align": "center",
+                    "justify": "center",
+                    "id": "Flex-ef324cf6-3e76-4884-96c8-75d75e96a496",
+                    "direction": "column",
+                    "radius": "md"
+                }
+            }
+        ],
+        "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a:item-5": [],
+        "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a:item-6": [],
+        "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a:item-7": [],
+        "Flex-185b6e3f-030d-4327-9d1a-a940f68b5a23:item-0": [
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "justify": "center",
+                            "align": "center",
+                            "w": "100%",
+                            "h": "60px"
+                        },
+                        {
+                            "w": "100%",
+                            "h": "420",
+                            "bg": "transparent",
+                            "align": "flex-start",
+                            "justify": "center"
+                        },
+                        {
+                            "justify": "center",
+                            "align": "center",
+                            "maw": "595px",
+                            "w": "100%",
+                            "h": "28",
+                            "gap": "sm"
+                        },
+                        {
+                            "align": "center",
+                            "justify": "center",
+                            "maw": "595px",
+                            "w": "100%",
+                            "h": "28px"
+                        },
+                        {
+                            "w": "100%",
+                            "h": "100%",
+                            "justify": "center",
+                            "align": "center",
+                            "gap": "lg",
+                            "maw": "1111px",
+                            "mah": "810px",
+                            "p": "md"
+                        },
+                        {},
+                        {},
+                        {}
+                    ],
+                    "shadow": "",
+                    "withBorder": false,
+                    "align": "center",
+                    "justify": "center",
+                    "id": "Flex-e915792c-82b1-496a-aa21-63fcaae71e6a",
+                    "direction": "column",
+                    "w": "100%",
+                    "h": "100%",
+                    "maw": "100%"
+                }
+            }
+        ],
+        "Flex-e7f75982-6cc3-4e7d-963c-89bc9d9cf716:item-0": [
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Brandname",
+                    "fz": "md",
+                    "id": "Text-522f0d6c-b350-44b3-b9ca-123c9b0967d7",
+                    "w": "149px",
+                    "ta": "center",
+                    "fw": "800",
+                    "c": "rgba(37, 43, 66, 1)"
+                }
+            },
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "justify": "space-between",
+                            "align": "center",
+                            "gap": "md",
+                            "w": "275px",
+                            "h": "24px"
+                        }
+                    ],
+                    "shadow": "",
+                    "withBorder": false,
+                    "align": "center",
+                    "justify": "center",
+                    "id": "Flex-09e4e1b0-225a-4cde-99f6-5f4fe79072bd",
+                    "w": "275px",
+                    "h": "58px"
+                }
+            }
+        ],
+        "Flex-11d386ef-9b4c-4ea4-83b5-a7715866c260:item-0": [
+            {
+                "type": "Button",
+                "props": {
+                    "label": "Button",
+                    "variant": "transparent",
+                    "id": "Button-31355b10-811f-4e0b-81c6-bca4c399f3bf",
+                    "w": "138px",
+                    "h": "35",
+                    "pr": ""
+                }
+            },
+            {
+                "type": "Button",
+                "props": {
+                    "label": "Button",
+                    "variant": "filled",
+                    "id": "Button-6cc73493-8d0e-40fa-93f9-64c5b4ba18ce",
+                    "w": "138px",
+                    "h": "35"
+                }
+            }
+        ],
+        "Flex-c2dd9715-804d-4ced-89ea-79b76c5a2708:item-0": [
+            {
+                "type": "Text",
+                "props": {
+                    "text": "For Better Future",
+                    "fz": "sm",
+                    "id": "Text-701d296c-d76e-40f2-bf6e-be4f9cff6539",
+                    "w": "147px",
+                    "ta": "center",
+                    "fw": "700",
+                    "size": "sm",
+                    "c": "rgba(17, 153, 238, 1)"
+                }
+            },
+            {
+                "type": "Title",
+                "props": {
+                    "title": "HIGH QUALITY \nCOURSES ",
+                    "size": "h1",
+                    "id": "Title-d48a9139-9387-4a80-b727-6ec14821a16f",
+                    "w": "302px",
+                    "ta": "center",
+                    "fw": "500",
+                    "c": "gray",
+                    "textWrap": "wrap",
+                    "order": 3
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Find the right instructor for you from over 10,000 teachers",
+                    "fz": "md",
+                    "id": "Text-b0c2385b-5f61-476a-a287-674451ce0b8c",
+                    "w": "362px",
+                    "ta": "center",
+                    "c": "rgba(115, 115, 115, 1)"
+                }
+            },
+            {
+                "type": "Flex",
+                "props": {
+                    "items": [
+                        {
+                            "h": "52px",
+                            "w": "370px",
+                            "justify": "center",
+                            "gap": "sm",
+                            "align": "center",
+                            "radius": "sm"
+                        }
+                    ],
+                    "shadow": "",
+                    "withBorder": false,
+                    "align": "center",
+                    "justify": "center",
+                    "id": "Flex-1273ede5-76eb-48cf-a0a1-d8fe391eba16",
+                    "w": "370px",
+                    "h": "52px"
+                }
+            }
+        ],
+        "Flex-521e3ec0-9c60-40b2-b9e3-2eab06d39a1b:item-0": [
+            {
+                "type": "Title",
+                "props": {
+                    "title": "1",
+                    "size": "h1",
+                    "id": "Title-a0dbaa4d-7f9f-4382-87c7-e8d0014ef492"
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Skill Enhancement",
+                    "fz": "sm",
+                    "id": "Text-2bb59e7c-4e8a-485f-9d5c-2e356b879ea4",
+                    "fw": "700"
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": " Our online courses offer flexible scheduling, allowing individuals to learn at their own pace and fit their studies around commitments such as work or family responsibilities.",
+                    "fz": "xs",
+                    "id": "Text-9ca58108-906e-4ba3-9d17-fa6b8d9fdb7c",
+                    "w": "200px",
+                    "ta": "center"
+                }
+            }
+        ],
+        "Flex-934c7fa0-f54f-4ab3-a25a-0e7cd62b2561:item-0": [
+            {
+                "type": "Title",
+                "props": {
+                    "title": "1",
+                    "size": "h1",
+                    "id": "Title-2f8c0b95-f430-47f1-93a7-38b6e0e253f0"
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Skill Enhancement",
+                    "fz": "sm",
+                    "id": "Text-8adef992-c32f-46c9-90e7-89a6d73b5f04",
+                    "fw": "700"
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": " Our online courses offer flexible scheduling, allowing individuals to learn at their own pace and fit their studies around commitments such as work or family responsibilities.",
+                    "fz": "xs",
+                    "id": "Text-6fee52bd-daa4-44fc-95a5-1c55b61c5d98",
+                    "w": "200px",
+                    "ta": "center"
+                }
+            }
+        ],
+        "Flex-ef324cf6-3e76-4884-96c8-75d75e96a496:item-0": [
+            {
+                "type": "Title",
+                "props": {
+                    "title": "1",
+                    "size": "h1",
+                    "id": "Title-97812f61-5dc0-4fc5-9dde-ba17813bfa0e"
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Skill Enhancement",
+                    "fz": "sm",
+                    "id": "Text-15665274-b31d-48d7-84b8-543b4afc85e0",
+                    "fw": "700"
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": " Our online courses offer flexible scheduling, allowing individuals to learn at their own pace and fit their studies around commitments such as work or family responsibilities.",
+                    "fz": "xs",
+                    "id": "Text-ede32ee7-af7c-43bf-8ffa-c99846cb1b93",
+                    "w": "200px",
+                    "ta": "center"
+                }
+            }
+        ],
+        "Flex-09e4e1b0-225a-4cde-99f6-5f4fe79072bd:item-0": [
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Text",
+                    "fz": "sm",
+                    "id": "Text-9804581e-b852-485c-ad8c-4de8df564495",
+                    "w": "45px",
+                    "fw": "700",
+                    "c": "rgba(115, 115, 115, 1)",
+                    "ta": "center",
+                    "textWrap": "pretty",
+                    "lineClamp": 1
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Text",
+                    "fz": "sm",
+                    "id": "Text-a68aa553-7adb-493d-9e3c-6a436af8d1f7",
+                    "w": "45px",
+                    "fw": "700",
+                    "c": "rgba(115, 115, 115, 1)",
+                    "ta": "center",
+                    "textWrap": "pretty",
+                    "lineClamp": 1
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Text",
+                    "fz": "sm",
+                    "id": "Text-aa971657-16a8-44f7-aa1a-a6cd27ef551c",
+                    "w": "45px",
+                    "fw": "700",
+                    "c": "rgba(115, 115, 115, 1)",
+                    "ta": "center",
+                    "textWrap": "pretty",
+                    "lineClamp": 1
+                }
+            },
+            {
+                "type": "Text",
+                "props": {
+                    "text": "Text",
+                    "fz": "sm",
+                    "id": "Text-d046dbeb-3e76-45d2-9684-41159852d2d3",
+                    "w": "45px",
+                    "fw": "700",
+                    "c": "rgba(115, 115, 115, 1)",
+                    "ta": "center",
+                    "textWrap": "pretty",
+                    "lineClamp": 1
+                }
+            }
+        ],
+        "Flex-1273ede5-76eb-48cf-a0a1-d8fe391eba16:item-0": [
+            {
+                "type": "Button",
+                "props": {
+                    "label": "Get Quote Now",
+                    "variant": "filled",
+                    "id": "Button-ae91544e-cd65-4f06-bacf-89fd6d103ccf",
+                    "w": "195px",
+                    "h": "40px"
+                }
+            },
+            {
+                "type": "Button",
+                "props": {
+                    "label": "Learn More",
+                    "variant": "outline",
+                    "id": "Button-b2c72f10-d70f-4479-a4ca-f8f114f62f36",
+                    "w": "195px",
+                    "h": "40px"
+                }
+            }
+        ]
+    }
+}

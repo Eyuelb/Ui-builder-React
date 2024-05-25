@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@mantine/core/styles.css';
+@import '@measured/puck/puck.css';
+
+/* light mode */
+:root[data-mantine-color-scheme='light'] {
+  --mantine-color-body: #f5fbfe;
+  --border-color: var(--border-color-light);
+  --card: var(--mantine-color-white);
+}
+
+/* dark mode */
+
+:root[data-mantine-color-scheme='dark'] {
+  --mantine-color-body: var(--mantine-color-dark-7);
+  --border-color: var(--mantine-color-gray-4);
+  --card: var(--mantine-color-dark-8);
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.DropZone {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  min-height: 100%;
+  outline-offset: -2px;
+  width: 100%;
+  background-color: rgb(255, 72, 0);
+}
+
+.DropZone-content {
+  min-height: 128px;
+  height: 100%;
+}
+
+.DropZone--userIsDragging .DropZone-content {
+  pointer-events: all;
+}
+
+.DropZone--userIsDragging:not(.DropZone--draggingOverArea):not(
+    .DropZone--draggingNewComponent
+  )
+  > .DropZone-content {
+  pointer-events: none;
+}
+
+.DropZone--isAreaSelected,
+.DropZone--draggingOverArea:not(:has(.DropZone--hoveringOverArea)),
+.DropZone--hoveringOverArea:not(.DropZone--isDisabled):not(
+    .DropZone--isRootZone
+  ):not(.DropZone--hasChildren) {
+  background: color-mix(in srgb, var(--puck-color-azure-09) 30%, transparent);
+  outline: 2px dashed var(--puck-color-azure-08);
+}
+
+.DropZone:not(.DropZone--hasChildren) {
+  background: color-mix(in srgb, var(--puck-color-azure-09) 30%, transparent);
+  outline: 2px dashed var(--puck-color-azure-08);
+}
+
+.DropZone--isDestination {
+  outline: 2px dashed var(--puck-color-azure-04) !important;
+}
+
+.DropZone--isDestination:not(.DropZone--isRootZone) {
+  background: color-mix(
+    in srgb,
+    var(--puck-color-azure-09) 30%,
+    transparent
+  ) !important;
+}
+
+.DropZone-item {
+  position: relative;
+}
+
+.DropZone-hitbox {
+  position: absolute;
+  bottom: -12px;
+  height: 24px;
+  width: 100%;
+  z-index: 1;
+}
+
+.Puck div {
+  position: relative;
+}
